@@ -1,0 +1,66 @@
+html {
+    background-color: lightblue;
+    color: purple;
+    font-family: fantasy;
+}
+img {
+    max-width: 100%;
+}
+p {
+    color: yellow; background-color: rgb(40, 101, 23);
+    font-size: 20px;
+   
+   border-style: dashed;
+   border-radius: 20px;
+border-color: red;
+/* top right bottom left */
+padding: 30px;
+margin: 50px;
+
+text-align: justify;
+line-height: 40px;
+}
+
+
+h1 {
+ color: rgb(50,180,150);
+}
+
+.special {
+    color: blue; background-color: orangered;
+}
+/* css rules that are further down in the doc have higher specificity */
+.neat {
+    color:blueviolet;
+}
+.cool {
+    font-weight: bold;
+    text-decoration: underline wavy;
+    font-style: italic;
+    color: firebrick;
+}
+
+.dim {
+    background-color: burlywood;
+    padding: 10px;
+    margin: 10px;
+    width: 200px;
+    height: 200px;
+}
+.spam {
+    background-color: darkkhaki;
+    padding: 10px;
+    margin: 10px;
+}
+
+a {
+    color: chocolate;
+    text-decoration:none;
+}
+a:visited {
+    color: hotpink;
+}
+
+a:hover {
+    background-color: lime;
+}
