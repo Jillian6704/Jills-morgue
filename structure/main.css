@@ -1,0 +1,165 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: darkslategrey;
+}
+
+header {
+  background-color: darkorchid;
+  padding: 10px;
+  text-align: center;
+}
+
+.moon {
+  width: 15rem;
+  height: 15rem;
+  border-radius: 50%;
+  top: 30px;
+  right: 20px;
+  transform: translate(-50%, -50%);
+ position: fixed;
+  box-shadow: 2rem 4rem 0 0 rgb(255, 253, 149);
+  opacity: 60%;
+  animation: moon 30s infinite;
+}
+
+
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  
+}
+
+.left {
+  display: flex;
+}
+
+.right {
+  display: flex;
+  flex-direction: column;
+}
+
+.plot {
+margin: 30px;
+margin-left: 200px;
+  background-color:darkgreen ;
+  width: 40%;
+  height: 25%;
+}
+
+.tomb {
+  margin: 40px;
+  
+}
+
+.coffin {
+ height: 30%;
+ width: 150px;
+ margin-left: 30px;
+ position: absolute;
+ z-index: 2;
+ 
+}
+
+
+
+.coffin:hover {
+  opacity: 0;
+transition: all 1s;
+}
+
+.vamp {
+  height: 30%;
+ width: 150px;
+ position: absolute;
+ z-index: 1;
+ margin-left: 30px;
+}
+
+.pine {
+  position: absolute;
+  height: 200px;
+  width: 100px;
+  bottom: 200px;
+  left: 100px;
+}
+
+.car {
+  position: absolute;
+  width: 200px;
+  left: 250px;
+  bottom: 200px;
+ 
+}
+
+.flex-container > div {
+  background-color: darkolivegreen;
+  margin-inline: 30px;
+  width: 50%;
+  height: 700px;
+  
+  
+}
+
+.crypt {
+  width: 50%;
+  margin-left: 100px;
+  margin-top: 50px;
+}
+
+.trees {
+  width: 500px;
+margin-top: 100px;
+}
+
+.hide {
+  display: none;
+}
+
+.trees:hover + .hide {
+  display: block;
+  position:relative;
+  text-align: center;
+  font-size: larger;
+  color: black;
+}
+
+img {
+  width: 80px;
+  
+}
+
+.hide {
+  width: 300;
+  padding: 10px;
+  border: 15px;
+  background-color: rgb(148, 175, 198);
+  margin: 20px;
+}
+
+.mover {
+ position: relative;
+  top: 20;
+  left: 0;
+  animation: move 10s infinite;
+}
+
+@keyframes move {
+  0% {
+left: 100vw;
+  }
+  100% {
+left: -15vw;
+  }
+}
+
+@keyframes moon {
+0% {
+  top: -15vh;
+}
+100% {
+  top: 100vh;
+}
+}

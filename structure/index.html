@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>structure</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css"></link>
+</head>
+
+<body>
+<header>
+    <h1>The Graveyard</h1>
+</header>
+
+<div class="moon"></div>
+
+<img class="mover" src="blackcat.png">
+
+<div class="flex-container">
+    <div class="left">
+
+
+            <img class="coffin" src="coffin.png">
+
+            <img class="vamp" src="vamp.png">
+        
+        <div class="plot">
+            
+           <a href="obituary/index.html"> 
+            <img class="tomb" src="grave.png">
+            
+        </div>
+        
+    </a>
+
+    <img class="pine" id="pine" src="pine.png">
+
+<img class="car" id="car" src="pngegg.png" height="20%" style="display: none;">
+
+    </div>
+        
+    <div class="right">
+        <a href="zombies/index.html">
+        <img class="crypt" src="crypt.png"></a>
+
+<img  class="trees" src="trees.png">
+
+<div class="hide">The graveyard trees
+    <p>The big tree in the center of the plot is where all the ghosts gather every night.
+    </p>
+       <p> They play here all night with the cats and the ghouls. The tree to the right of the big tree is known as Skeleton Tree. Here all the skeletons meet to play on their bone xylophones and dance around.
+        </p>
+        <p>
+        The spindley tree on the left is known as the haunted tree. Many years ago this tree was used to hang the evil serial killer of the town and it's said you can still see him there sometimes.
+    </p>
+</div>
+    
+    </div>
+    
+    <script>
+ document.getElementById(pine).addEventListener('click', function () {
+    document.getElementById(car).style.display = 'inline !important';
+});
+</script>
+</body>
+</html>

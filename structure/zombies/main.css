@@ -1,0 +1,46 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: darkslateblue;
+}
+
+
+
+.zombie {
+  position: relative;
+  display: flex;
+  width: 10%;
+  flex-direction: column;
+animation: move 10s infinite;
+}
+
+
+@keyframes move {
+  0% {
+left: -15vw;
+}
+100% {
+left: 100vw;
+}
+}
+
+.zombier {
+  position: relative;
+    display: flex;
+  width: 10%;
+  flex-direction: column;
+  animation: mover 10s infinite;
+}
+
+@keyframes mover {
+  0% {
+right: -15vw;
+}
+100% {
+right: 100vw;
+}
+}
+
+

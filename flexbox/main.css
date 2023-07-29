@@ -1,0 +1,22 @@
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  background-color: lightblue;
+  padding: 10px;
+  height: 500px;
+
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: center;
+gap: 10px;
+  justify-content: center;
+}
+
+.item {
+  background-color: slateblue;
+  border: 1px solid;
+  width: 200px;
+}
